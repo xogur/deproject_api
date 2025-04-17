@@ -1,7 +1,7 @@
 spring:
   datasource:
-    # url: jdbc:postgresql://localhost:5434/deproject
-    url: jdbc:postgresql://postgres_custom:5432/deproject
+    url: jdbc:postgresql://localhost:5434/deproject
+    # url: jdbc:postgresql://postgres_custom:5432/deproject // 배포용
     username: xogur
     password: xogur
   jpa:
@@ -14,3 +14,6 @@ spring:
 
 server:
   port: 8000
+
+aes:
+  secret: 'f7Tg9Kw3sXp1LmZa'
